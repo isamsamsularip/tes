@@ -7,7 +7,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\TransaksiController;
 
-Route::post('login', [ApiController::class, 'Logic_test']);
+Route::post('tes_a', [ApiController::class, 'Logic_test']);
 Route::post('login', [ApiController::class, 'authenticate']);
 Route::post('register', [ApiController::class, 'register']);
 
